@@ -15,9 +15,9 @@ Subprojects must...
 
 Besides, each subproject structure will be as follows:
 
-- GET /: form to create new short link;
+- GET /: shows the form to create new short link;
 
-- POST /: result from previous form;
+- POST /: creates a shortened URL and returns the generated address;
 
 - GET /<id>: redirect to original URL -- OR -- show page saying URL has been removed;
 
@@ -31,5 +31,4 @@ It should be possible to POST /, GET /admin/url and PUT /admin/url/<id> with JSO
 
 This is a list of languages that I have already implemented something:
 
-- 
-
+-
